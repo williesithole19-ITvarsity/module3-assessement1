@@ -1,0 +1,205 @@
+html{
+    height: 100%;
+}
+body{ 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.body-home {
+    background-image: url('images/background-01-port\ vegi.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/*========== home page ==========*/
+#home-logo-img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+#home-logo-text {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px ;
+}
+
+/*========== home page menu==========*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+    font-size: 25px;
+    font-weight: bold;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+
+/*========== home page for meals==========*/
+#meals {
+    padding-top: 50px;
+}
+/*========== meals home page==========*/
+
+.meals-list a{
+    text-decoration: none;
+}
+.meals-list-items {
+    border: 5px solid black;
+    margin: 10px;
+    
+}
+
+.meals-list-items h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+.meals-list-items i{
+    float: right;
+    padding-right: 10px;
+    color:black;
+}
+
+.meals-list-items p{
+    font-weight: bold;
+    font-style: italic;
+    color:black;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+.body-meals {
+    background-image: url('images/background-02-port.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.header i{
+    padding: 17px 0px 0px 17px;
+    float: left;
+    color: white;
+
+}
+.header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*========== recipe  page==========*/
+#recipe{
+    padding-top: 50px;
+}
+/*========== recipe home page==========*/
+
+.recipe-details img{
+    width: 100%;
+}
+
+.recipe-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.recipe-details h2 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin: 0;
+    text-align: left;
+}
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+.recipe-details-ingridient{
+    line-height: 25px;
+    margin-left: 10px;
+}
+.recipe-details-steps{
+    padding-top: 20ox;
+
+}
+.recipe-details-steps ol {
+    padding-left: 28px;
+    
+}
+/*========== recipe home page==========*/
+
+
+@media only screen and (min-width: 600px) {#meals { 
+    width: 80%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 600px) {#recipe { 
+    width: 80%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 600px) {#meals { 
+    width: 80%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 1000px) {#recipe { 
+    width: 60%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 1000px) {#meals { 
+    width: 60%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 1500px) {#recipe { 
+    width: 40%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 1500px) {#meals { 
+    width: 40%;
+    margin: auto;
+}
+
+}
+@media only screen and (min-width: 720px) {.body-home {
+    background-image: url('images/background-01-land\ vegi.png');
+}
+    
+}
